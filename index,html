@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Krish's Handcraft Store</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <a href="#" class="logo">
+        <img src="logo,png copy.jpeg" alt="Business Logo">
+    </a>
+    <ul class="navbar">
+        <li><a href="Home">Home</a></li>
+        <li><a href="Service">Service</a></li>
+        <li><a href="Products">Products</a></li>
+        <li><a href="About">About</a></li>
+        <li><a href="Reviews">Reviews</a></li>
+    </ul> 
+    <div class="header-btn">
+        <a href="#" class="sign-up">Sign Up</a>
+        <a href="#" class="sign-in">Sign In</a>
+    </div>
+  </header> 
+  <section class="Home" id="Home">
+    <div class="text">
+      <h1><span>Looking</span> to<br>
+      own a piece of rajasthan</h1>
+      <p>we are here to help you explore the 
+        best of Handcraft's from rajasthan</p>
+        <p>explore our collection,place an order and get
+          ready to receiev the rajasthani touch at your home.</p>
+          <div class="app-stores">
+            <img src="image copy.png" alt="AppStore">
+            <img src="image.png" alt="PlayStore">
+          </div>
+    </div>
+    <div class="form-container">
+        <h2>Place an Order</h2>
+        <form action="#" method="POST">
+          <select name="product" required>
+            <option value="disabled selected">Select product</option>
+            <option value="Textile">Traditional Textile</option>
+            <option value="Pottery">Hand-painted Pottery</option>
+            <option value="Jewellery">Rajasthani Jewelleryewellery</option>
+            <option value="Furniture">Handcraft Furniture</option>
+            <option value="Carving">Wooden carving</option>
+            <option value="Crockery">Rajasthani Crockery</option>
+          </select>
+          <input type="number" name="quantity" placeholder="Quantity" required min="1">
+          <input type="text" name="name" placeholder="Your Name" required>
+          <input type="email" name="email" placeholder="Your Email" required>
+          <input type="tel" name="phone" placeholder="Your Phone" >
+          <textarea name="message" placeholder="Your Message" rows="4" required></textarea>
+          <button type="submit">Place Order</button>
+        </form>
+    </div>
+  </section>
+  <section class="Service" id="Service">
+    <div class="heading">
+      <span>How to</span>
+      <h1>Get the best of Rajasthani Handicrafts delivered at your doorstep.</h1>
+
+    </div>
+
+    <div class="service-container">
+      <div class="box">
+      <i class="bx bx-windows"></i>
+      <h2>Browse the collection</h2>
+      <p>Choose what you like from our rich collection listed in the following section</p>
+       </div>
+      <div class="box">
+        <i class="bx bxl-shopify"></i>
+        <h2>Place an Order</h2>
+        <p>Place your order by filling up the form in the above section</p>
+      </div>
+      <div class="box">
+        <i class="bx bx-credit-card"></i>
+        <h2>Checkout Online</h2>
+        <p>Pay us online using your preferred card, UPI or Payment gateway.</p>
+      </div>
+      <div>
+  </section>
+
+  <!--Product Section-->
+  <div class="Products" id="Products">
+    <div class="heading">
+      <span>Beast Options</span>
+      <h1>Explore our top deals from our Top Handicrafts collection</h1>
+    </div>
+    <div class="Products-container">
+      <div class="box">
+        <img src="img/1.webp" alt="Traditional Textile">
+        <h2>Traditional Textile</h2>
+        <h3>Rs.2400/piece</h3>
+      </div>
+      <div class="box">
+        <img src="img/2.webp" alt="Hand-painted Pottery">
+        <h2>Hand-painted Pottery</h2>
+        <h3>Rs.400/piece</h3>
+      </div>
+      <div class="box">
+        <img src="img/3.webp" alt="Rajasthani Jewellery">
+        <h2>Rajasthani Jewellery</h2>
+        <h3>Rs.48400/piece</h3>
+      </div>
+      <div class="box">
+        <img src="img/4.webp" alt="Handcraft Furniture">
+        <h2>Handcraft Furniture</h2>
+        <h3>Rs.18400/piece</h3>
+      </div>
+      <div class="box">
+        <img src="img/5.webp" alt="Wooden Carving">
+        <h2>Wooden Carving</h2>
+        <h3>Rs.4200/piece</h3>
+      </div>
+      <div class="box">
+        <img src="img/6.webp" alt="Rajasthani Crockery">
+        <h2>Rajasthani Crockery</h2>
+        <h3>Rs.200/piece</h3>
+      </div>
+       </div>
+ </div>
+</body>
+</html>
